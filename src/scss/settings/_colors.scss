@@ -1,0 +1,21 @@
+:root{
+  // Couleurs de base
+  --color-white: #FFF;
+  --color-black: #000;
+
+  // Couleurs du projet
+  --color-link: #202C4A;
+  --color-link-visited: #8B8B97;
+  --color-link-hover: #E53847;
+  --color-link-active: #2A4FAA;
+  --color-link-focus:#62BDFC;
+
+  --color-bg-primary: #FFF;
+  --color-bg-secondary: #F0F0F0;
+  --color-bg-tertiary: #202C4A;
+
+  --color-text-primary: #000;
+  --color-text-secondary: #FFF;
+
+  --color-gradient: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+}
