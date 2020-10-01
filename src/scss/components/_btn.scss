@@ -1,0 +1,14 @@
+.btn{
+  padding: 12px 29px;
+  background-image: var(--color-gradient);
+
+  text-transform: uppercase;
+
+  &:link, &:visited{
+    color: var(--color-text-secondary);
+  }
+
+  &:hover{
+    text-decoration: none;
+  }
+}

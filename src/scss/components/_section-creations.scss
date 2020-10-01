@@ -1,0 +1,50 @@
+.creations{
+  margin-top: var(--margin-large);
+  padding: var(--padding--thin);
+
+  article{
+    text-align: center;
+    margin-top: var(--margin-large);
+    display: inline-block;
+  }
+
+  img{
+    width: 12%;
+  }
+
+  h3{
+    margin: 25px 0 18px;
+  }
+}
+
+@media screen and (min-width: $vw-medium) and (max-width: $vw-huge){
+  .creations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    article{
+      width: 49%;
+    }
+
+    img{
+      width: 13%;
+    }
+  }
+}
+
+@media screen and (min-width: $vw-huge){
+  .creations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    article{
+      width: 32%;
+    }
+
+    img{
+      width: 13.5%;
+    }
+  }
+}
